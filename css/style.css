@@ -1,0 +1,98 @@
+/* Titulo font */
+@import url('https://fonts.googleapis.com/css2?family=Micro+5+Charted&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+    color:rgb(232, 81, 67);
+    margin-top: 2rem;
+    padding: 20px 30px 30px;
+    font-size: 2rem;
+}
+
+.subtitulo{
+    color:coral;
+    padding: 2rem 30px 10px;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.contenido1{
+    margin-left: 2rem;
+    margin-right: 10rem;
+    font-size: 1.5rem;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagen img{
+    position: relative;
+    max-width: 100%;
+    width: 200rem;
+    border-radius: 5%;    
+    display: flex;
+    margin-left: 5rem;
+
+}
+
+.boton{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: coral;
+    padding: 10px 30px 10px;
+    cursor: pointer;
+    margin-left: 2rem;
+    text-align:justify;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.boton:hover{
+    background-color: cornflowerblue;
+}
+
+@media only screen and (max-width: 768px) {
+    .contenido1 {
+    flex-direction: column;
+    margin-right: 3rem;
+    }
+
+    .imagen img {
+        width: 100%;
+        width: 600px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+
+}
+
+footer p{
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+footer a{
+    margin-left: 50%;
+    font-size: 20px;
+    color: blueviolet;
+}
+
